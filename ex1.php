@@ -1,8 +1,12 @@
 <?php
 
-$raio = 2;
-$area = 3.14 * $raio * $raio;
-echo $area;
+function circulo ($raio,$area) {
+define("PI", 3.14)
+
+$raio = rand(1,10);
+$area = "PI" * $raio * $raio;
+}
+return $area;
 
 
 ?>
