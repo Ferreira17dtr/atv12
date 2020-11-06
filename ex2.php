@@ -1,20 +1,23 @@
 <?php
 
-function parimpar ($num) {
 
 $num = rand(1,100);
+
+function parimpar ($num) {
+
+
 if ($num % 2 == 0) {
-	echo $num;
-	echo "<br>";
-	echo "O número inserido é par";
+	return true;
 }
+
 	else {
-	echo $num;
-	echo "<br>";
-	echo "O número é impar";
+		return false;
 }
 
 }
+
+
+
 
 
 ?>
